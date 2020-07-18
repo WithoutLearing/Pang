@@ -117,14 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="7c97c84f0b3320956a9c3c797aaa1d81" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7c97c84f0b3320956a9c3c797aaa1d81.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1589700592994" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1589700592994.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="千库网_黑色外星人手绘剪影_元素编号9356393" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\千库网_黑色外星人手绘剪影_元素编号9356393.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
