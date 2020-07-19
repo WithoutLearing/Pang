@@ -174,7 +174,8 @@ namespace Pang
 
         private void iconPictureBox3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            timerClose.Start();
+            
         }
 
         private void iconPictureBox2_Click(object sender, EventArgs e)
@@ -222,6 +223,19 @@ namespace Pang
         private void iconPictureBox3_MouseLeave(object sender, EventArgs e)
         {
             iconPictureBox3.BackColor = Color.FromArgb(26, 25, 62);
+        }
+
+        private void timerClose_Tick(object sender, EventArgs e)
+        {
+            if (this.Opacity>=0.025)
+            {
+                this.Opacity -= 0.025;
+            }
+            else
+            {
+                timerClose.Stop();
+                Application.Exit();
+            }
         }
     }
 }

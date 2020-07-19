@@ -15,7 +15,16 @@ namespace Pang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Login());
+            //  Application.Run(new frmSplashScreen());
+            frmSplashScreen splashScreen = new frmSplashScreen();
+            if (splashScreen.ShowDialog()==DialogResult.OK)
+            {
+                Application.Run(new frm_Login());
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
     }
 }

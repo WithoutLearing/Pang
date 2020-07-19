@@ -83,6 +83,16 @@ namespace Pang.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap ScreenBackground {
+            get {
+                object obj = ResourceManager.GetObject("ScreenBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 千库网_黑色外星人手绘剪影_元素编号9356393 {
             get {
                 object obj = ResourceManager.GetObject("千库网_黑色外星人手绘剪影_元素编号9356393", resourceCulture);
